@@ -4,6 +4,14 @@
 const newItemInpt = document.querySelector("#new-item");
 const itemsList = document.querySelector("#items");
 const addItemBtn = document.querySelector("#add-item");
+ 
+addItemBtn.style.backgroundColor = "#FF7F50"; 
+addItemBtn.style.border = "5px solid red";
+addItemBtn.style.borderRadius = "50px";
+
+newItemInpt.style.borderRadius = "15px";
+newItemInpt.style.boxShadow = "5px 2px 15px 2px #E9967A"
+
 
 function removeItem() {
     this.parentElement.remove();
